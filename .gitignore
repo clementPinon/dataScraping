@@ -1,0 +1,5 @@
+#dataset to be excluded
+
+*.csv
+*.txt
+*.xls
