@@ -5,11 +5,11 @@ c <- subset(DF,as.numeric(levels(Data$Pos))[Data$Pos] == as.numeric(position))
 c
 
 #profile for a given name (Regex)
-a <- subset(Data, grepl("BONDUELLE", Data$Name))
+a <- subset(Data, grepl("EPP", Data$Name))
 a
 #profile for a given team
-b <- subset(Data, grepl("DONNEUSES", Data$Team))
-b #Robin ended first in his team
+b <- subset(Data, grepl("OBERHOFFEN", Data$Team))
+b #EPP was alone on his team
 
 
 #best runner for a given gategory
